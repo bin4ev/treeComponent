@@ -1,0 +1,5 @@
+ <div class="item-wrap"  #viewContainerRef style="display: flex;"> 
+    <fa-icon  class="icons"*ngIf="data.name" [icon]="icon" (click)="onClick($event)"></fa-icon> 
+    <span  class="icons"*ngIf="data.name" (click)="onClick($event)"></span> 
+    <div >{{data.name ? data.name : data }}</div>
+</div>  

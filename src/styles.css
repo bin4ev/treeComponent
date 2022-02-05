@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.icons {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.item-wrap {
+    display: flex;
+    margin-left: 10px;
+    font-family: helvetica;
+    font-style: italic;
+    font-size: 195x;
+}
